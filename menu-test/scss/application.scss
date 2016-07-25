@@ -3,14 +3,10 @@ body, html {
   padding: 50px;
 }
 
-.cf {
-  clear: both;
-}
-
 .menu {
   display: flex;
   flex-flow: row;
-  width: 700px;
+  width: 300px;
   justify-content: space-between;
   align-items: center;
   .button-left{
@@ -92,7 +88,5 @@ body, html {
 
   .vair {
     background-image: url('../img/vair.png');
-    background-repeat: repeat;
   }
-
 }

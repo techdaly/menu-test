@@ -2,13 +2,10 @@ body, html {
   margin: 0px;
   padding: 50px; }
 
-.cf {
-  clear: both; }
-
 .menu {
   display: flex;
   flex-flow: row;
-  width: 700px;
+  width: 300px;
   justify-content: space-between;
   align-items: center; }
   .menu .button-left {
@@ -56,7 +53,6 @@ body, html {
     background-image: url("../img/ermine.png");
     background-repeat: repeat; }
   .menu .vair {
-    background-image: url("../img/vair.png");
-    background-repeat: repeat; }
+    background-image: url("../img/vair.png"); }
 
 /*# sourceMappingURL=application.css.map */
