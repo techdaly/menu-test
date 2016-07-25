@@ -1,58 +1,53 @@
-body, html {
+body html {
   margin: 0px;
-  padding: 50px; }
+  padding: 0px; }
 
-.menu {
-  display: flex;
-  flex-flow: row;
-  width: 300px;
-  justify-content: space-between;
-  align-items: center; }
-  .menu .button-left {
-    border-top: 50px solid transparent;
-    border-right: 50px solid black;
-    border-bottom: 50px solid transparent; }
-  .menu .button-left:hover {
-    cursor: pointer;
-    opacity: .6; }
-  .menu .button-right {
-    border-top: 50px solid transparent;
-    border-left: 50px solid black;
-    border-bottom: 50px solid transparent; }
-  .menu .button-right:hover {
-    cursor: pointer;
-    opacity: .6; }
-  .menu .color {
-    width: 100px;
-    height: 100px; }
-  .menu .red {
-    background-color: red; }
-  .menu .blue {
-    background-color: blue; }
-  .menu .white {
-    background-color: white; }
-  .menu .yellow {
-    background-color: yellow; }
-  .menu .black {
-    background-color: black; }
-  .menu .green {
-    background-color: green; }
-  .menu .purple {
-    background-color: purple; }
-  .menu .mulberry {
-    background-color: #cc0099; }
-  .menu .ash {
-    background-color: #737373; }
-  .menu .brown {
-    background-color: #663300; }
-  .menu .sky {
-    background-color: #66ccff; }
-  .menu .amaranth {
-    background-color: #ff0066; }
-  .menu .ermine {
-    background-image: url("../img/ermine.png");
-    background-repeat: repeat; }
-  .menu .vair {
-    background-image: url("../img/vair.png"); }
+.color {
+  width: 100px;
+  height: 100px; }
+
+.red {
+  background-color: red; }
+
+.blue {
+  background-color: blue; }
+
+.white {
+  background-color: #fafafa; }
+
+.yellow {
+  background-color: yellow; }
+
+.black {
+  background-color: black; }
+
+.green {
+  background-color: green; }
+
+.purple {
+  background-color: purple; }
+
+.mulberry {
+  background-color: #cc0099; }
+
+.ash {
+  background-color: #737373; }
+
+.brown {
+  background-color: #663300; }
+
+.sky {
+  background-color: #66ccff; }
+
+.amaranth {
+  background-color: #ff0066; }
+
+.ermine {
+  background-image: url("../img/ermine.png");
+  background-repeat: repeat; }
+
+.vair {
+  background-image: url("../img/vair.png");
+  background-repeat: repeat; }
 
 /*# sourceMappingURL=application.css.map */
